@@ -1,6 +1,6 @@
 ﻿namespace Catalog.Domain.Entities
 {
-    internal class CatalogItem : BaseEntity
+    public class CatalogItem : BaseEntity
     {
         public string? Title { get; set; }
         public string? ShortDescription { get; set; }
