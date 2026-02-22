@@ -1,6 +1,6 @@
 ﻿namespace Catalog.Domain.Repositoties
 {
-    internal interface IBrandRepository
+    public interface IBrandRepository
     {
         Task<IEnumerable<Brand>> GetAllBrandsAsync();
     }

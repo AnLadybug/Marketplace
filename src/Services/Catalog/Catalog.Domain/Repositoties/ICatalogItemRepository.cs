@@ -1,6 +1,6 @@
 ﻿namespace Catalog.Domain.Repositoties
 {
-    internal interface ICatalogItemRepository
+    public interface ICatalogItemRepository
     {
         Task<CatalogItem> CreateCatalogItemAsync(CatalogItem item);
         Task<IEnumerable<CatalogItem>> GetCatalogItemsAsync();
